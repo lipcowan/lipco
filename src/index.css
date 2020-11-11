@@ -1,0 +1,26 @@
+html {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+}
+
+body, div#root {
+   height: 100%;
+   margin: 0;
+   padding: 0;
+;}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+}
+
+h2{
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h4 {
+    font-family: 'Source Code Pro', monospace;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}

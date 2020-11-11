@@ -6,10 +6,13 @@ export default class Header extends Component {
         return (
             <div id='dev_header'>
                 <div id='dev_header_h1'>
-                    <h1>Header - LipCo Dev</h1>
+                    <h1>LipCo</h1>
                 </div>
                 <div id='dev_header_nav'>
-                    <h4>Nav - Page1</h4>
+                    <ul>
+                        <li><h4>_projects</h4></li>
+                        <li><h4>_about me</h4></li>
+                    </ul>
                 </div>
             </div>
         )

@@ -1,0 +1,26 @@
+#dev_main {
+    height: clamp(80vh, auto, 100vh);
+}
+
+
+#eyeCatcher {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 2vh 2vw;
+}
+
+
+
+
+div#introStatement {
+    text-shadow: 1px 0 10px rgb(71, 95, 184);
+    color: rgb(255,255,255);
+    padding: 0 2vw;
+}
+
+div#profile img{
+    height: clamp(100px, 30vh, 450px);
+}
+

@@ -1,0 +1,6 @@
+div#dev_footer {
+    border-top: 1px solid white;
+    background-color: rgba(16, 17, 22, 0.57);
+    color: white;
+    text-align: center;
+}

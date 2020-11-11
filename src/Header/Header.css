@@ -1,0 +1,23 @@
+div#dev_header {
+    border-bottom: 1px solid white;
+    background-color: rgba(16, 17, 22, 0.57);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dev_header_h1, #dev_header_nav {
+    display:flex;
+    margin: 0 1vmax;
+    align-items: center;
+}
+
+#dev_header_nav ul{
+    list-style-type: none;
+}
+
+
+
+
+
+
