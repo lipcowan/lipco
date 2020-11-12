@@ -1,21 +1,41 @@
 {
   "name": "lipco",
+  "homepage": "https://lipco.dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-regular-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "@fortawesome/react-fontawesome": "^0.1.12",
     "@testing-library/jest-dom": "^5.11.5",
     "@testing-library/react": "^11.1.1",
     "@testing-library/user-event": "^12.2.0",
+    "prop-types": "^15.7.2",
     "react": "^17.0.1",
+    "react-animation-components": "^3.0.0",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
+    "react-scroll": "^1.8.1",
+    "react-spring": "^8.0.27",
+    "react-transition-group": "^4.4.1",
+    "react-use": "^15.3.4",
+    "react-use-gesture": "^8.0.0",
+    "react-visibility-sensor": "^5.1.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "preupdate": "git add . && git pull",
+    "update":"git commit -m 'updating repo'",
+    "postupdate": "git push origin main",
+    "predeploy": "npm run build",
+    "deploy": "vercel",
+    "publish": "vercel --prod"
   },
   "eslintConfig": {
     "extends": [
