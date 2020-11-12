@@ -5,7 +5,7 @@ import '../Main.css'
 export default class Project extends Component {
     render() {
         return (
-            <div class='projectTemplate' >
+            <div className='projectTemplate' >
                 <h4>Title</h4>
                 <h4>description</h4>
                 <h4>tech stack</h4>
