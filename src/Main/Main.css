@@ -2,7 +2,6 @@
     height: clamp(80vh, auto, 100vh);
 }
 
-
 #eyeCatcher {
     display: flex;
     flex-wrap: wrap;
@@ -12,12 +11,8 @@
     padding: 2vh 2vw;
 }
 
-
-
-
 div#introStatement {
     text-shadow: 1px 0 10px rgb(71, 95, 184);
-    color: rgb(255,255,255);
     padding: 0 2vw;
 }
 

@@ -10,8 +10,8 @@ export default class Header extends Component {
                 </div>
                 <div id='dev_header_nav'>
                     <ul>
+                        <li><h4>_about_me</h4></li>
                         <li><h4>_projects</h4></li>
-                        <li><h4>_about me</h4></li>
                     </ul>
                 </div>
             </div>

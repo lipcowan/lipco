@@ -1,6 +1,11 @@
 div#dev_footer {
-    border-top: 1px solid white;
-    background-color: rgba(16, 17, 22, 0.57);
-    color: white;
-    text-align: center;
+    background-color: rgba(50, 53, 68, 0.509);
+    align-content: center;
+}
+
+div#ContactInfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 }
