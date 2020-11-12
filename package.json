@@ -33,7 +33,7 @@
     "preupdate": "git add . && git pull",
     "update":"git commit -m 'updating repo'",
     "postupdate": "git push origin main",
-    "predeploy": "npm run build",
+    "predeploy": "npm run update && npm run build",
     "deploy": "vercel",
     "publish": "vercel --prod"
   },
