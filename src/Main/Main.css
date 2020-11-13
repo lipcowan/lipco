@@ -51,6 +51,8 @@ span#emName {
    justify-content: center;
    align-content: center;
    height: auto;
+   width: 100vw;
+   max-height: 100vh;
  }
 
  #ProjectArea_Header {
@@ -102,7 +104,18 @@ span#emName {
    justify-content: center;
    text-align: justify;
    align-content: center;
-   width: 60vw;
+   padding: 0 1vw;
+   width: 80vw;
+   font-size: minmax(2vmax, 1vmax);
+ }
+
+ div.content__stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  width: 80vw;
  }
 
  div#ProjectPhotos .Project__image{
@@ -110,10 +123,8 @@ span#emName {
  }
 
  div#ProjectPhotos img{
-   width: auto;
+   width: 60vw;
    height: auto;
-   max-width: 512px;
-   max-height: 512px;
  }
 
 

@@ -5,11 +5,10 @@ import { projectData } from '../../data/projectData'
 import '../Main.css'
 
 const ProjectViewer = () => {
-    // const screens = projectData.map(p => <ProjectScreen images={p.images} content={p.content} />)
     const [ index, set ] = useState(0)
     const screenTransitions = useTransition(projectData[index], item => item.id, {
       from: { opcaity: 0, transform: 'translate3d(100%, 0, 0', display: 'none' },
-      enter: { opacity: 1, transform: 'translate3d(0%, 0, 0', display: 'block' },
+      enter: { opacity: 1, transform: 'translate3d(0%, 0, 0', display: 'flex' },
       leave: { opacity: 0 },
       config: { ...config.stiff, clamp: true },
     })
