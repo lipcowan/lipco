@@ -18,7 +18,7 @@ export const aboutMeData = [
       imgAltText: 'survival needs, coffee and a computer',
       content: [
         'I need coffee and my computer to survive... ',
-        `BUT, once I have everything I need, I always excited and ready to tackle another day`, 
+        `BUT, once I have everything I need, I'm always excited and ready to tackle another day`, 
         `I currently work with JavaScript, React, Node.js, Express, and PostgreSQL`,
         `I'm really excited to begin mastering new languages, frameworks, and environments.`
       ],
