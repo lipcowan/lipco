@@ -3,7 +3,6 @@ div#dev_header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    box-shadow: 0 0 50px 0 rgb(100, 64, 170);
 }
 
 #dev_header_h1, #dev_header_nav{
@@ -23,8 +22,9 @@ div#dev_header {
     padding: 0 1vw;
 }
 
-#dev_header ul li a:hover {
+#dev_header ul li a:hover h4 {
     cursor: pointer;
+    text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
  

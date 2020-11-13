@@ -7,26 +7,27 @@ div#dev_main {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 4vh 2vw;
+    height: 90vh;
 }
 
 div#introStatement {
+    padding: 0 2vw;
     text-shadow: 1px 0 10px rgb(71, 95, 184);
 }
 
 div#profile img{
     width: 70vw;
-    max-width: 512px;
     padding: 0 2vw;
+    max-width: 512px;
     height: auto;
 }
 
 span#emName {
-    box-shadow: 0 2px 0 rgba(99, 64, 170, 0.783);
+  text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em blue;
 }
 
-  
   .About__header {
+    padding-top: 1vh;
     text-align: center;
   }
 
