@@ -1,15 +1,27 @@
 // all my contact info - add in the github, linkedin, and email icons 
-import React, {Component} from 'react'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import './Footer.css'
 
-export default class ContactMe extends Component {
-    render() {
-        return (
-            <div id='ContactInfo'>
-                 <h4>_GitHub</h4>
-                 <h4>_LinkedIn</h4>
-                 <h4>_Email</h4>
-            </div>
-        )
-    }
+const ContactMe = () => {
+    return (
+        <div id='ContactInfo'>
+            <a href='https://github.com/lipcowan' target='_blank' rel='noreferrer'>
+                <h2>
+                    <FontAwesomeIcon icon={["fab", "github"]} />
+                </h2>
+            </a>
+            <a href='https://www.linkedin.com/in/lip-cowan/' target='_blank' rel='noreferrer'>
+                <h2>
+                    <FontAwesomeIcon icon={['fab','linkedin']} />
+                </h2>
+            </a>
+            <a href='mailto:jobs@lipco.dev' target='_blank' rel='noreferrer'>
+                <h2>
+                    <FontAwesomeIcon icon={['far','envelope']} />
+                </h2>
+            </a>
+        </div>
+    )    
 }
+
+export default ContactMe
