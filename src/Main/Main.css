@@ -30,10 +30,12 @@ span#emName {
     text-align: center;
   }
 
-.Bio {
+.Bio, div section#aboutMe {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-content: center;
+    width: 90vw;
+    padding: 0 2vw;
   }
 
   
@@ -132,6 +134,19 @@ span#emName {
     .Bio {
       flex-direction: row;
       align-items: center;
+      justify-content: center;
+    }
+
+    section#aboutMe {
+      display: flex;
+      align-content: center;
+      justify-content: center;
+    }
+
+    div.row_content {
+      display: flex;
+      justify-content: center;
+      align-content: center;
     }
   
     .reverse {
