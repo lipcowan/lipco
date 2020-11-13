@@ -30,7 +30,7 @@ export const aboutMeData = [
       content: [
         'While I do EAT SLEEP & BREATHE programing these days, I also like to take a step back and refresh so I can come back with a new perspective',
         `Sometimes we don't even know what we don't know, you know?`,
-        `If I'm not working on my computer, or catching up with the latest netflix series, I'm probably reading a book about magic and other worlds`
+        `If I'm not working on my computer, or catching up with the latest Netflix series, I'm probably reading a book about magic and other worlds`
       ],
       animatedDirection: 'right',
     },

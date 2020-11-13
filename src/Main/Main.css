@@ -131,11 +131,18 @@ div section#aboutMe div.row_content {
 
  div#ProjectPhotos .Project__image{
    display: flex;
+   align-content: space-between;
+   justify-content: space-between;
+   width:auto;
+   max-width: 60vw;
+   flex-direction: column;
  }
 
  div#ProjectPhotos img{
-   width: 60vw;
+   width: auto;
+   max-width: 60vw;
    height: auto;
+   max-height: 40vh;
  }
 
 
