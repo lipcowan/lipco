@@ -45,7 +45,7 @@ export default function Header() {
 
                         <animated.li style={fN}>
                             <Link 
-                                to='projects'
+                                to='ProjectArea'
                                 activeClass='active'
                                 spy={true}
                                 smooth={true}

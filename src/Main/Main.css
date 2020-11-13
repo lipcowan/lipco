@@ -1,20 +1,21 @@
+div#dev_main {
+  padding: 1vh 1vw;
+}
 
 #eyeCatcher {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
     padding: 4vh 2vw;
 }
 
 div#introStatement {
     text-shadow: 1px 0 10px rgb(71, 95, 184);
-    padding: 0 2vw;
 }
 
 div#profile img{
-    width: 90%;
+    width: 70vw;
     max-width: 512px;
     padding: 0 2vw;
     height: auto;
@@ -24,46 +25,98 @@ span#emName {
     box-shadow: 0 2px 0 rgba(99, 64, 170, 0.783);
 }
 
-.About {
-    min-height: 100vh;
-    background-color: black;
-    padding: 2vh 2rem 2rem 2rem;
-  }
   
   .About__header {
-    color: white;
     text-align: center;
-    font-size: 2rem;
-    margin: 1rem 1rem 5vh 1rem;
   }
 
 .Bio {
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
-    color: white;
     text-align: center;
-    padding: 0.8rem;
-    margin: 1rem auto;
   }
-  
-  .row_image_container {
-    width: 100%;
-  }
+
   
   .row_image {
-    display: block;
-    width: 90%;
+    width: 70vw;
     max-width: 512px;
-    margin: 0 auto;
-    padding: 1.5rem 0;
+    padding: 0 2vw;
     border-radius: 50%;
+    height: auto;
   }
-  
-  .row_text {
-    margin: 0.8rem;
-  }
-  
+ 
+ div#ProjectArea {
+   padding: 1vh 1vw;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   height: auto;
+ }
+
+ #ProjectArea_Header {
+  text-align: center;
+}
+
+ div#ProjectOverview {
+  padding: 1vh 1vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  height: auto;
+ }
+
+ div#ProjectPhotos{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: auto;
+ }
+
+
+
+ div.Project__content {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+ }
+ 
+ div.content__links_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 70vw;
+ }
+
+ div.content__links_container a {
+   color: white;
+ }
+
+ div.content__links_container a:hover {
+  box-shadow: 0 0 2px 2px rgb(24, 72, 242);
+}
+
+ div.content__desc_container{
+   display: flex;
+   justify-content: center;
+   text-align: justify;
+   align-content: center;
+   width: 60vw;
+ }
+
+ div#ProjectPhotos .Project__image{
+   display: flex;
+ }
+
+ div#ProjectPhotos img{
+   width: auto;
+   height: auto;
+   max-width: 512px;
+   max-height: 512px;
+ }
+
+
   @media all and (min-width: 1000px) {
     .Bio {
       flex-direction: row;
@@ -73,13 +126,5 @@ span#emName {
     .reverse {
       flex-direction: row-reverse;
     }
-  
-    .row_image_container {
-      width: 50%;
-    }
-  
-    .row_content {
-      width: 50%;
-      font-size: 0.9rem;
-    }
   }
+

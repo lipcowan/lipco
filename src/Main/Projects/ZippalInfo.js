@@ -1,1 +1,0 @@
-// Zip Pal - our group project, pen-pal app

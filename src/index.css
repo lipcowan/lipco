@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&family=Source+Code+Pro&family=Yeseva+One&display=swap');
 html {
     background-color: rgb(0, 0, 0);
+    color: rgb(255,255,255);
     height: 100%;
-    color: rgb(255,255,255)
+    margin: 0;
+    padding: 0;
 }
 
 body, div#root {
-   height: 100%;
-   margin: 0;
    padding: 0;
-;}
+   margin: 0;
+}
 
 h1 {
     font-family: 'Yeseva One', cursive;

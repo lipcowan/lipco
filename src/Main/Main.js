@@ -1,7 +1,7 @@
 import { Element } from 'react-scroll'
 import Statement from './LandingBio/Statement'
 import About from './AboutMe/About'
-import ProjectViewer from './Projects/ProjectViewer'
+import ProjectSection from './Projects/ProjectSection'
 
 function Main() {
     
@@ -11,8 +11,8 @@ function Main() {
             <Element name='aboutMe'>
             <About/>
             </Element>
-            <Element name='projects'>
-            <ProjectViewer/>
+            <Element name='ProjectArea'>
+            <ProjectSection/>
             </Element>                
         </div>
     )

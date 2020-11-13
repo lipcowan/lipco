@@ -1,15 +1,35 @@
-// view projects in carosel? 
-import React, {Component} from 'react'
+import { useState } from 'react'
+import { useTransition, animated, config } from 'react-spring'
 import Project from './Project'
+import { projectData } from '../../data/projectData'
 import '../Main.css'
 
-export default class ProjectViewer extends Component {
-    render() {
-        return (
-            <div id='projectViewer'>
-                <h4>Recent Projects (MVP)</h4>
-                {<Project/>}
-            </div>
-        )
+const ProjectViewer = () => {
+    // const screens = projectData.map(p => <ProjectScreen images={p.images} content={p.content} />)
+    const [ index, set ] = useState(0)
+    const screenTransitions = useTransition(projectData[index], item => item.id, {
+      from: { opcaity: 0, transform: 'translate3d(100%, 0, 0', display: 'none' },
+      enter: { opacity: 1, transform: 'translate3d(0%, 0, 0', display: 'block' },
+      leave: { opacity: 0 },
+      config: { ...config.stiff, clamp: true },
+    })
+  
+    const nextProject = () => {
+      set(projectData.length - 1 === index ? 0 : index + 1)
     }
-} 
+    return (
+      <div id='ProjectViewer'>
+        {screenTransitions.map(({ item, props, key }) => (
+          <animated.div
+            className='viewer_wrapper'
+            key={key}
+            style={props}
+          >
+            <Project images={item.images} content={item.content} nextProjectHandler={nextProject} />
+          </animated.div>
+        ))}
+      </div>
+    )
+  }
+  
+  export default ProjectViewer

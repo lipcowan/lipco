@@ -6,11 +6,11 @@ import { Element } from 'react-scroll'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGithub, faLinkedin, faMedium } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope, faArrowAltCircleUp } from '@fortawesome/free-regular-svg-icons'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faForward, faArrowCircleRight, faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons'
 import './App.css'
 
 library.add(faGithub, faLinkedin, faMedium, faEnvelope, 
-  faArrowAltCircleUp,faBars)
+  faArrowAltCircleUp,faBars, faForward, faArrowCircleRight, faArrowCircleLeft)
 
 class App extends Component {
   render(){

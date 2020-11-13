@@ -1,16 +1,16 @@
-import Listwish1 from '../Main/Images/Listwish1'
-import Listwish2 from '../Main/Images/Listwish2'
-import Listwish3 from '../Main/Images/Listwish3'
-import Listwish4 from '../Main/Images/Listwish4'
-import Tentare1 from '../Main/Images/Tentare1'
-import Tentare2 from '../Main/Images/Tentare2'
-import Tentare3 from '../Main/Images/Tentare3'
-import Tentare4 from '../Main/Images/Tentare4'
-import Zippal1 from '../Main/Images/Zippal1'
-import Zippal2 from '../Main/Images/Zippal2'
-import Zippal3 from '../Main/Images/Zippal3'
-import Zippal4 from '../Main/Images/Zippal4'
-import Zippal5 from '../Main/Images/Zippal5'
+import Listwish1 from '../Main/Images/Listwish1.png'
+import Listwish2 from '../Main/Images/Listwish2.png'
+import Listwish3 from '../Main/Images/Listwish3.png'
+import Listwish4 from '../Main/Images/Listwish4.png'
+import Tentare1 from '../Main/Images/Tentare1.png'
+import Tentare2 from '../Main/Images/Tentare2.png'
+import Tentare3 from '../Main/Images/Tentare3.png'
+import Tentare4 from '../Main/Images/Tentare4.png'
+import Zippal1 from '../Main/Images/Zippal1.png'
+import Zippal2 from '../Main/Images/Zippal2.png'
+import Zippal3 from '../Main/Images/Zippal3.png'
+import Zippal4 from '../Main/Images/Zippal4.png'
+import Zippal5 from '../Main/Images/Zippal5.png'
 
 export const projectData = [
   {
@@ -24,7 +24,7 @@ export const projectData = [
     content: {
       title: "ListWish",
       desc:
-        "DiscCaddy is your companion on the course. With DiscCaddy you can: keep track of your round by creating a scorecard, add the discs you own to your DiscCaddy bag, and get a recommended disc based on your selected shot type and the discs you own. DiscCaddy helps you think about shot shapes and disc flight characteristics. It also allows you to view all your previous scorecards to track your scores over time.",
+        `I wanted to make an app that non-profits could use for their wishlists, they're always in need of items for donations but often getting items they don't actually need. ListWish was the first ever app I made myself, it's still a work in progress but I'm proud of it.`,
       stack: {
         client: "JavaScript, React, React Router, Context, Jest",
         server: "Node.js, Express.js, bcryptjs, JWT, PostgreSQL, Mocha, Chai",
