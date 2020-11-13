@@ -4,6 +4,7 @@ div#dev_header {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 0 1vw;
+    box-shadow: 0 0 50px rgb(100, 64, 170);
 }
 
 #dev_header_h1, #dev_header_nav{

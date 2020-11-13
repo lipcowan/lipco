@@ -1,16 +1,20 @@
-import React, {Component} from 'react'
+import { Element } from 'react-scroll'
 import Statement from './LandingBio/Statement'
-import Bio from './AboutMe/Bio'
+import About from './AboutMe/About'
 import ProjectViewer from './Projects/ProjectViewer'
 
-export default class Main extends Component {
-    render() {
-        return (
-            <div id='dev_main'>
-                <Statement/>
-                <Bio/>
-                <ProjectViewer/>
-            </div>
-        )
-    }
+function Main() {
+    
+    return (
+        <div id='dev_main'>
+            <Statement/>
+            <Element name='aboutMe'>
+            <About/>
+            </Element>
+            <Element name='projects'>
+            <ProjectViewer/>
+            </Element>                
+        </div>
+    )
 }
+export default Main
