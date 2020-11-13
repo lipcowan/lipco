@@ -38,6 +38,14 @@ span#emName {
     padding: 0 2vw;
   }
 
+div.Bio {
+  padding: 2vh 0;
+}
+
+div section#aboutMe div.row_content {
+  display: flex;
+  flex-direction: column;
+}
   
   .row_image {
     width: 70vw;
